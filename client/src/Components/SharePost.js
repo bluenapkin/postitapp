@@ -1,7 +1,29 @@
+import {
+  Button,
+  Col,
+  Label,
+  Container,
+  Row,
+  FormGroup,
+  Input,
+} from "reactstrap";
+
 
 const SharePosts = () => {
   return (
-    <h1>SharePosts</h1>
+    <Container>
+      <Row>
+        <Col>
+        <Input
+        id="share"
+        name="share"
+        placeholder="share your thoughts..."
+        type="textarea">
+        </Input>
+        <Button>PostIT</Button>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
