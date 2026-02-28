@@ -6,21 +6,22 @@ import { Container, Row, Col } from "reactstrap"; //import the Reactstrap Compon
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Row>
         <Col md={3}>
-        <User></User>
+          <User />
         </Col>
         <Col md={9}>
-        <SharePosts></SharePosts>
+          <SharePosts />
         </Col>
       </Row>
       <Row>
         <Col md={3}></Col>
         <Col md={9}>
-        <Posts></Posts></Col>
+          <Posts />
+        </Col>
       </Row>
-    </div>
+    </>
   );
 };
 
